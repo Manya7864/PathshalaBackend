@@ -3,7 +3,7 @@ const teacherRoute = require("./Routes/teacher.route");
 const studentRoute = require("./Routes/student.route");
 const testsRoute = require("./Routes/test.route");
 const connection = require("./Config/db");
-const Authentication = require("./Middleware/authentication");
+const Authentication = require("./Middleware/Authentication");
 const cors = require("cors");
 require("dotenv").config();
 const app = express();
